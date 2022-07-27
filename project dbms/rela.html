@@ -1,0 +1,144 @@
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  margin-left:-5px;
+  margin-right:-5px;
+}
+  
+.column {
+  float: center;
+  width: 20%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 20%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+</style>
+</head>
+<body>
+<h2>RELATIONAL MODEL</h2>
+<P>Details of the Students in Orphanage Home</p>
+<table>
+<tr>
+    <th>s_no</th>
+    <th>Age</th> 
+    <th>Boys</th>
+<th>Girls</th>
+<th> Adapted_children</th>
+<th>Expenses_of_child_per_month</th>
+  </tr>
+<tr>
+    <td>1</td>
+    <td>Less than 6</td>
+    <td>25</td>
+<td>30</td>
+<td>16</td>
+<td>1575</td>
+  </tr>
+<tr>
+    <td>2</td>
+    <td>Less than 12</td>
+    <td>30</td>
+<td>28</td>
+<td>10</td>
+<td>1800</td>
+  </tr>
+<tr>
+    <td>3</td>
+    <td>Less than 16</td>
+    <td>29</td>
+<td>35</td>
+<td>11</td>
+<td>1800</td>
+  </tr>
+<tr>
+    <td>4</td>
+    <td>Less than 18</td>
+    <td>20</td>
+<td>27</td>
+<td>5</td>
+<td>2500</td>
+  </tr>
+<tr>
+    <td>5</td>
+    <td>Above 20</td>
+    <td>16</td>
+<td>20</td>
+<td>3</td>
+<td>2300</td>
+  </tr>
+</table>
+<h2>Updated Report</h2>
+<table>
+  <tr>
+    <th>s_no</th>
+    <th>New joiners</th> 
+<th>total</th>
+<th>Expenses</th>
+<th>City</th>
+<th>Expenses per Person</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>3</td>
+    <td>50</td>
+<td>10000</td>
+<td>Vijayawada</td>
+<td>2000</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>4</td>
+    <td>65</td>
+<td>9000</td>
+<td>Vijayawada</td>
+<td>2500</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>4</td>
+    <td>70</td>
+<td>18000</td>
+<td>Guntur</td>
+<td>2400</td>
+  </tr>
+<tr>
+<td>4</td>
+    <td>5</td>
+    <td>75</td>
+<td>15000</td>
+<td>Gudivada</td>
+<td>2600</td>
+</tr>
+</table>
+
+</body>
+</html>
+
+
+</html>
